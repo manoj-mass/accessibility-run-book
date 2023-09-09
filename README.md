@@ -20,3 +20,20 @@ Also as per Lighthouse international research study one in six Americans which i
     * Blindness or vision impairments
     * Brain injuries
     * Attention deficit/ Hyperactivity disorders
+
+## Ways you can browser web
+    * Screen readers
+    * Keyboard shortcuts
+    * Mouth stick / Head wand
+    * Single switch
+    * Magnification
+  
+## Keyboard shortcuts
+
+### Tabbable elements
+
+    * <a>
+    * <button>
+    * <select>
+    * <textarea>
+    * <iframe>
