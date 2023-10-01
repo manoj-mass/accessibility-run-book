@@ -31,9 +31,45 @@ Also as per Lighthouse international research study one in six Americans which i
 ## Keyboard shortcuts
 
 ### Tabbable elements
-
+    Idea is hitting Tab key will move one tabbable item ahead.
+    Where as shift + tab will move one tabbable item backwards.
+```html
     * <a>
     * <button>
     * <select>
     * <textarea>
     * <iframe>
+    * <form>
+    etc.
+```
+### Tabindex
+   ```html
+    <div tabindex="0">Tabbable element</div>
+   ```
+
+   Tabindex may contain three different types of values. 
+   1.  **0** - element should be focused
+   2.  **Positive value** - element is focusable. Focused order defined by the positive number/value attribute. If two elements contain same value, their relative order follows their relative position in the document.
+   3.  **Negative values** - element should not be focused.
+   
+   **Maximum value of tab index is 32767 as per W3C section 17.11.1** Some times you may need to use javascript in certain occasions depending on the situation to use javascript to focus onto an element manually.
+
+### Visual focus
+
+It should always indicate which element are currently focused visually. You may often see when you are focused onto a button or an input field light blue boarder wraps the element indicating the current element focus.
+
+### Skip links
+
+Idea is to have a link at the top of the page which would jump users directly to another section. For an instance if a visually impared user uses keyboard or tab to navigate through a website, user may have to tab through all of navigation section or all of page header section to come to the main content area.
+
+Skip links enable users to skip navigation section straight away. To achieve this we have to place a link as the first element of the navigation.
+
+
+```html
+<body>
+<a href="#maincontent">Skip to main content</a>
+...
+<main id="maincontent">
+<h1>Heading</h1>
+<p>This is the first paragraph</p>
+```
