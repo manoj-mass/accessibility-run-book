@@ -1,3 +1,5 @@
+# WIP: Cooking something good here :rocket: :de: 
+
 # Web Accessibility Run Book
 
 The Accessibility Run book serves as a guide to ensure that all digital assets, including web applications, documents, code, and other resources, are designed and maintained with accessibility in mind. Accessibility ensures that individuals with disabilities can access, understand, and interact with our digital content effectively and independently.
@@ -60,7 +62,7 @@ It should always indicate which element are currently focused visually. You may 
 
 ### Skip links
 
-Idea is to have a link at the top of the page which would jump users directly to another section. For an instance if a visually impared user uses keyboard or tab to navigate through a website, user may have to tab through all of navigation section or all of page header section to come to the main content area.
+Idea is to have a link at the top of the page which would jump users directly to other sections. For an instance if a visually impaired user uses keyboard or tab to navigate through a website, user may have to tab through all of navigation section or all of page header section to come to the main content area.
 
 Skip links enable users to skip navigation section straight away. To achieve this we have to place a link as the first element of the navigation.
 
