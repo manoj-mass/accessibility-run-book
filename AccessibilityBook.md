@@ -1,6 +1,6 @@
-# Web Accessibility Run Book
+# Web Accessibility book
 
-The Accessibility Run book serves as a guide to ensure that all digital assets, including web applications, documents, code, and other resources, are designed and maintained with accessibility in mind. Accessibility ensures that individuals with disabilities can access, understand, and interact with our digital content effectively and independently.
+The Accessibility book serves as a guide to ensure that all digital assets, including web applications, documents, code, and other resources, are designed and maintained with accessibility in mind. Accessibility ensures that individuals with disabilities can access, understand, and interact with our digital content effectively and independently.
 
 Free and Open Source Repo. Feel free to contribute. 
 
