@@ -1,8 +1,8 @@
-# Web Accessibility Run Book. (WIP: :cookie:ing something :de: )
+# Web Accessibility Run Book
 
 ## Table of Content
 
-- [Web Accessibility Run Book. (WIP: :cookie:ing something :de: )](#web-accessibility-run-book-wip-cookieing-something-de-)
+- [Web Accessibility Run Book](#web-accessibility-run-book)
   - [Table of Content](#table-of-content)
   - [Introduction](#introduction)
     - [Purpose of the run book](#purpose-of-the-run-book)
