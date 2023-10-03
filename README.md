@@ -1,5 +1,28 @@
 # Web Accessibility Run Book. (WIP: :cookie:ing something :de: )
 
+## Table of Content
+
+- [Web Accessibility Run Book. (WIP: :cookie:ing something :de: )](#web-accessibility-run-book-wip-cookieing-something-de-)
+  - [Table of Content](#table-of-content)
+  - [Introduction](#introduction)
+    - [Purpose of the run book](#purpose-of-the-run-book)
+    - [Importance of web accessibility](#importance-of-web-accessibility)
+    - [Target audience](#target-audience)
+    - [Scope of the Document:](#scope-of-the-document)
+  - [Legal and Compliance Requirements](#legal-and-compliance-requirements)
+  - [Roles and Responsibilities](#roles-and-responsibilities)
+  - [Accessibility Testing Tools](#accessibility-testing-tools)
+  - [Testing Procedures](#testing-procedures)
+  - [Web Accessibility Guidelines](#web-accessibility-guidelines)
+    - [Web Content Accessibility Guidelines (WCAG):](#web-content-accessibility-guidelines-wcag)
+  - [Remediation Strategies](#remediation-strategies)
+  - [Testing and Release Process](#testing-and-release-process)
+  - [Accessibility Documentation](#accessibility-documentation)
+  - [Training and Awareness](#training-and-awareness)
+  - [Ongoing Maintenance](#ongoing-maintenance)
+  - [Additional Resources](#additional-resources)
+  - [Contributors](#contributors)
+
 ## Introduction
 
 ### Purpose of the run book
@@ -773,19 +796,88 @@ Resources can include websites, organizations, forums, tools, and more.
 
 1. Web Accessibility Guidelines and Standards:
 
-   - Provide links and references to the official Web Content Accessibility Guidelines (WCAG) documentation. This is crucial for detailed information on web accessibility standards.
+   - [The official Web Content Accessibility Guidelines (WCAG) documentation]([https://](https://www.w3.org/WAI/standards-guidelines/wcag/#:~:text=The%20WCAG%20standards%20have%2012,A%2C%20AA%2C%20and%20AAA.)). This is crucial for detailed information on web accessibility standards.
 
 2. Accessibility Testing Tools:
 
-   - List and describe various accessibility testing tools that are available. Include links to their official websites or download locations. Common tools may include screen readers, browser extensions, and automated testing tools.
+   - [NVDA (NonVisual Desktop Access)]([https://](https://www.nvaccess.org/))
+   - [JAWS (Job Access With Speech)]([https://](https://www.freedomscientific.com/products/software/jaws/))
+   - [VoiceOver]([https://](https://www.apple.com/accessibility/vision/))
+   - [axe DevTools]([https://](https://www.deque.com/axe/devtools/))
+   - [WAVE Evaluation Tool]([https://](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh))
+   - [Web Developer]([https://](https://chrispederick.com/work/web-developer/))
+   - [axe-core]([https://](https://github.com/dequelabs/axe-core))
+   - [Pa11y]([https://](https://github.com/pa11y/pa11y))
+   - [Lighthouse]([https://](https://developer.chrome.com/docs/lighthouse/overview/))
+   - [WebAIM Color Contrast Checker]([https://](https://webaim.org/resources/contrastchecker/))
+   - [Contrast]([https://](https://usecontrast.com/))
+   - [NoMouse Days]([https://](https://www.a11yproject.com/posts/no-mouse-days/#:~:text=The%20idea%20of%20No%20Mouse,development%20one%20day%20a%20week.))
+   - [Keyboard Accessibility Testing Bookmarklets]([https://](https://dylanb.github.io/))
+
+
 
 3. Online Tutorials and Training:
 
-   - Recommend online tutorials, courses, and webinars that can help team members improve their knowledge of web accessibility. Mention reputable platforms and organizations that offer such resources.
+Improving knowledge of web accessibility is essential for ensuring that your team can create inclusive and accessible digital experiences. Here are some reputable platforms, organizations, and resources that offer online tutorials, courses, and webinars on web accessibility:
+
+   1. Web Accessibility Initiative (WAI) - W3C
+
+       **Website:** - [WAI Web Accessibility Tutorials]([https://](https://www.w3.org/WAI/tutorials/))
+
+       **Description:** The WAI, a branch of the World Wide Web Consortium (W3C), provides free tutorials and resources on web accessibility. Their tutorials cover a wide range of topics related to WCAG guidelines and accessibility best practices.
+
+   2. Coursera
+
+       **website** [coursera]([https://](https://www.coursera.org/))
+       
+       **Description:** Coursera offers courses on web accessibility from various universities and institutions. Look for courses like "Web Accessibility" or "Digital Accessibility" to find relevant content.
+
+   3. edX
+       **Website:** [edX]([https://](https://www.edx.org/))
+
+       **Description:** edX offers online courses on web accessibility and digital inclusion. Courses are often created in partnership with universities and institutions.
+       
+   4. Deque University
+
+       **Website:** [Deque University]([https://](https://dequeuniversity.com/))
+
+       **Description:** Deque offers a range of web accessibility training courses, including webinars and certification programs. They provide both free and paid resources.
+       
+   5. WebAIM
+
+       **Website:** [WebAIM]([https://](https://webaim.org/))
+
+       **Description:** WebAIM is a leading provider of web accessibility expertise. They offer online resources, webinars, and training courses, including their "Web Accessibility for Designers" and "Web Accessibility for Developers" courses.
+       
+   6. A11y Project
+
+       **Website:** [A11y Project]([https://](https://www.a11yproject.com/))
+
+       **Description:** A11y Project provides free articles, tutorials, and guides on web accessibility. It's a great resource for both beginners and experienced developers.
+
+   7. LinkedIn Learning (formerly Lynda.com)
+
+       **Website:** [LinkedIn Learning]([https://](https://www.linkedin.com/learning/))
+
+       **Description:** LinkedIn Learning offers a variety of courses on web accessibility, such as "Web Accessibility Principles" and "Creating Accessible PDFs."
+
+   8. Google Web Fundamentals - Accessibility
+
+       **Website:** [Google Web Fundamentals - Accessibility]([https://](https://web.dev/accessibility/))
+
+       **Description:** Google provides a comprehensive guide on web accessibility as part of its Web Fundamentals series. It covers the basics and offers practical advice for developers.
+
+   9. Mozilla Developer Network (MDN) - Accessibility Learning Path
+
+       **Website:** [MDN Accessibility Learning Path]([https://](https://developer.mozilla.org/en-US/docs/Learn/Accessibility))
+       
+       **Description:** MDN offers an accessibility learning path that covers various aspects of web accessibility, including HTML, ARIA, and multimedia accessibility.
+
+Remember to encourage your team members to participate in web accessibility conferences and workshops as well. These events often feature expert speakers and hands-on training sessions. Additionally, staying up-to-date with the latest developments in web accessibility through blogs, forums, and social media is important for continuous learning.
+
+
 
 4. Accessibility Communities and Forums:
-
-   - Point to online communities, forums, and discussion groups where web accessibility professionals share knowledge and experiences. Examples include the WebAIM Community and the W3C Web Accessibility Initiative (WAI) mailing lists.
 
 5. Accessibility Testing Guides:
 
@@ -793,43 +885,31 @@ Resources can include websites, organizations, forums, tools, and more.
 
 6. Accessible Design Patterns and Examples:
 
-   - Share resources that showcase accessible design patterns and examples. These can help designers and developers understand how to implement accessibility in practice.
+   - [WAI-ARIA Authoring Practices Guide]([https://](https://www.w3.org/WAI/ARIA/apg/))
+   - [Inclusive Components]([https://](https://inclusive-components.design/))
 
-7. Web Accessibility Blogs and News:
 
-   - Suggest blogs and news websites that regularly publish updates and articles related to web accessibility trends, news, and best practices.
+7. Web Accessibility Blogs and News
 
-8. Accessibility Conferences and Events:
+8. Accessibility Conferences and Events
 
-   - Mention upcoming accessibility conferences, webinars, and events. These can be excellent opportunities for team members to network and learn from experts in the field.
+9. Accessibility Organizations
 
-9. Accessibility Organizations:
+10. Web Accessibility Testing Platforms
 
-   - Highlight organizations that specialize in web accessibility advocacy and consulting. These organizations often provide resources, guidelines, and expert assistance.
+11. Accessibility Evaluation Services
 
-10. Web Accessibility Testing Platforms:
-
-    - If your organization uses or plans to use third-party platforms for accessibility testing and reporting, provide information about these platforms and how to access them.
-
-11. Accessibility Evaluation Services:
-
-    - If your organization requires external accessibility audits or consulting services, list contacts or links to reputable accessibility evaluation companies.
-
-12. Legal and Compliance Resources:
-
-    - Include references to relevant legal documents and official government websites that detail accessibility requirements and compliance regulations, such as the ADA or Section 508.
-
-13. Accessibility Tools and Plugins:
-
-    - Recommend specific tools, plugins, or libraries that can aid in making websites more accessible. For example, mention JavaScript libraries that enhance keyboard accessibility.
-
-14. Case Studies and Success Stories:
-
-    - Share case studies and success stories of organizations that have successfully implemented web accessibility. These can serve as inspiration and examples.
+12. Legal and Compliance Resources
+    
+13. Accessibility Tools and Plugins
+    
+14. Case Studies and Success Stories
 
 15. Feedback Channels:
 
-    - Provide information on how team members can seek guidance or ask questions about web accessibility within the organization. This could include designated contacts or communication channels.
-
 Remember to periodically review and update the Additional Resources section of your web accessibility run book to ensure that the information remains current and relevant to the evolving field of web accessibility.
 
+## Contributors
+
+1. @manoj-mass / @hello-mano
+2. Would you like to contribute to this document ?
