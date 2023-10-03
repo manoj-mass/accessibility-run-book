@@ -1,4 +1,4 @@
-# Web Accessibility Run Book. (WIP: :cookie:ing something good here :de: )
+# Web Accessibility Run Book. (WIP: :cookie:ing something :de: )
 
 ## Introduction
 
@@ -405,8 +405,8 @@ Remediation strategies in the context of web accessibility refer to the actions 
     ```css
     /* Example CSS for improving color contrast */
     .text {
-    color: #333; /* Text color */
-    background-color: #fff; /* Background color */
+        color: #333; /* Text color */
+        background-color: #fff; /* Background color */
     }
     ```
 
@@ -465,5 +465,77 @@ Remediation strategies in the context of web accessibility refer to the actions 
 Remediation strategies should be integrated into the web development process to ensure that accessibility is considered from the beginning and maintained throughout the project's lifecycle. Regular testing and ongoing commitment to accessibility are essential for creating an inclusive online experience for all users.
 
 
+## Testing and Release Process
 
+The Testing and Release Process for web accessibility should be well-structured to ensure that your website or web application is accessible to people with disabilities before it goes live. Here is a detailed breakdown of the testing and release process for web accessibility:
+
+1. Pre-Development Planning:
+
+   - Accessibility should be considered from the outset of any web development project. Ensure that accessibility requirements are included in the project's initial scope and planning documents.
+
+2. Accessibility Testing During Development:
+
+   - Conduct ongoing accessibility testing during the development phase to catch issues early.
+   - Developers should use automated testing tools and manual testing techniques to identify and address accessibility problems as they arise.
+   - Collaborate closely with designers, content creators, and developers to ensure that accessibility is integrated into every aspect of the project.
+
+3. Pre-Launch Accessibility Audit:
+
+   - Before the website or application is ready for release, conduct a comprehensive accessibility audit.
+   - Perform manual testing with assistive technologies such as screen readers and conduct usability tests with people with disabilities if possible.
+   - Use automated testing tools to identify potential issues, but remember that manual testing is essential to catch nuanced problems.
+   - Document all accessibility issues found during this audit.
+
+4. Issue Tracking and Prioritization:
+
+   - Create a system for tracking and prioritizing accessibility issues. Prioritize critical issues that significantly impact usability for people with disabilities.
+   - Assign responsibilities for fixing each issue to the appropriate team members (developers, designers, content creators).
+
+5. Remediation and Testing Iteration:
+
+   - Developers and other relevant team members should address and remediate the identified accessibility issues.
+   - After remediation, conduct retesting to ensure that the issues have been properly resolved.
+   - Iterate this process until all critical accessibility issues are resolved and the website meets the required accessibility standards.
+
+6. User Acceptance Testing (UAT):
+
+   - If feasible, involve individuals with disabilities in User Acceptance Testing (UAT).
+   - Gather feedback and insights from users with disabilities to ensure that the website is genuinely accessible and usable.
+
+7. Accessibility Documentation:
+
+   - Create or update accessibility documentation, including an accessibility statement, VPAT (Voluntary Product Accessibility Template), and any required compliance reports.
+   - Ensure that all accessibility features and accommodations are documented for reference.
+
+8. Release Planning:
+
+   - Plan the release date and time carefully, considering accessibility testing and remediation timelines.
+   - Ensure that the website is fully accessible and compliant with relevant standards before proceeding to the release phase.
+
+9. Release:
+
+   - Deploy the accessible website or application to the production server.
+   - Monitor the website for any last-minute issues that may arise during or after deployment.
+
+10. Post-Launch Accessibility Testing:
+
+    - Continue to monitor the accessibility of the live website.
+    - Regularly conduct accessibility tests to identify and address any new issues that may arise due to updates, changes, or user-generated content.
+  
+11. Accessibility Testing in Future Releases:
+
+    - Integrate accessibility testing into your organization's ongoing development process.
+    - Ensure that accessibility remains a priority for all future updates and releases.
+  
+12. Accessibility Training and Awareness:
+
+    - Offer training and awareness programs for team members to keep them informed about accessibility standards and best practices.
+    - Promote a culture of accessibility within your organization to ensure continued commitment to accessibility in future projects.
+
+13. Documentation and Reporting:
+
+    - Maintain accurate records of accessibility testing, remediation, and ongoing maintenance activities.
+    - Periodically update the accessibility run book and other documentation as needed to reflect changes in best practices or standards.
+
+By following these steps and integrating accessibility into your development and release process, you can ensure that your website or web application remains accessible to a wide range of users, including those with disabilities. Accessibility should be an ongoing commitment, not a one-time effort.
 
