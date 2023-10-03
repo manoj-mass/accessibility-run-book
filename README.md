@@ -704,3 +704,68 @@ Establish a feedback mechanism for participants to report accessibility issues o
 
 By implementing a comprehensive training and awareness program, organizations can foster a culture of web accessibility and ensure that accessibility considerations are integrated into every aspect of their web development process. This, in turn, helps create more inclusive digital experiences for all users.
 
+## Ongoing Maintenance
+
+Ongoing maintenance is a critical aspect of web accessibility, ensuring that a website or web application remains accessible to people with disabilities over time. Here is detailed information on ongoing maintenance for web accessibility:
+
+1. Accessibility Audits and Evaluations:
+
+   - Conduct regular accessibility audits and evaluations of your website or web application. This process should be scheduled at predefined intervals (e.g., quarterly, annually) or triggered by significant changes to the site.
+   - Use both automated testing tools and manual testing methods to identify and assess accessibility issues. Automated tools can help catch common and repetitive issues, while manual testing provides insights into the user experience.
+   - Document the results of these audits, including a list of identified issues, their severity, and their location within the site.
+
+2. Issue Prioritization:
+
+   - After identifying accessibility issues, prioritize them based on their impact and severity. Consider using a system such as the Web Content Accessibility Guidelines (WCAG) conformance levels (A, AA, AAA) or a similar ranking to categorize issues.
+   - Address critical issues that severely impact the user experience first. These might include issues related to keyboard navigation, screen reader compatibility, and essential form fields.
+
+3. Issue Tracking and Management:
+
+   - Use an issue tracking system to record and manage accessibility issues. Popular tools like JIRA, GitHub Issues, or dedicated accessibility testing platforms can help you organize and track progress.
+   - Assign responsibilities for fixing each issue to specific team members or stakeholders. Clearly communicate who is responsible for addressing each problem.
+
+4. Accessibility Testing with Real Users:
+
+   - Whenever possible, involve people with disabilities in usability testing and user feedback sessions. Their input can provide valuable insights into the actual user experience and help identify issues that automated tools might miss.
+   - Continuously gather feedback from users with disabilities to identify new challenges or areas that need improvement.
+
+5. Regular Content Updates and Reviews:
+
+   - Content creators and editors should be trained in accessibility best practices and should review and update content with accessibility in mind.
+   - Implement content creation guidelines, such as proper heading structure, alt text for images, and semantic HTML, to ensure newly added content is accessible.
+
+6. Development Process Integration:
+
+   - Ensure that accessibility is integrated into the development process from the start. Developers should be aware of accessibility requirements and best practices and incorporate them into their coding practices.
+   - Conduct code reviews to check for accessibility issues in newly developed features or updates.
+
+7. Documentation and Reporting:
+
+   - Continuously update your accessibility documentation, including your accessibility run book, to reflect the current state of your website or application.
+   - Maintain records of accessibility audits, evaluations, and remediation efforts. These records can be valuable for compliance reporting and tracking progress over time.
+
+8. Training and Awareness:
+
+- Organize ongoing training sessions and workshops to keep team members informed about web accessibility best practices and the importance of maintaining an accessible web presence.
+- Foster a culture of accessibility within the organization, where all team members understand their role in maintaining accessibility.
+
+9. External Support and Expertise:
+
+- Consider seeking external support from accessibility experts or consultants for periodic accessibility reviews and guidance, especially if your website undergoes significant updates or changes.
+
+10. Feedback Mechanisms:
+
+- Provide accessible channels for users to report accessibility issues they encounter. Make it easy for them to reach out and ensure that their concerns are addressed promptly.
+
+11. Regular Compliance Reporting:
+
+- If your organization is subject to legal requirements or compliance standards, establish a regular reporting mechanism to demonstrate your ongoing commitment to web accessibility. Generate Voluntary Product Accessibility Templates (VPATs) or similar documentation if necessary.
+
+12. Continuous Improvement:
+
+- Use the insights gained from ongoing maintenance efforts to drive continuous improvement in web accessibility. Learn from past mistakes and successes to make accessibility an integral part of your web development process.
+
+Ongoing maintenance is essential to ensure that web accessibility remains a priority and that your website or web application continues to provide an inclusive and usable experience for all users. It's an iterative process that requires dedication and a proactive approach to addressing accessibility issues as they arise.
+
+
+
