@@ -1,4 +1,4 @@
-# Web Accessibility Run Book. (WIP: Cooking something good here :rocket: :de: )
+# Web Accessibility Run Book. (WIP: :cookie:ing something good here :de: )
 
 ## Introduction
 
