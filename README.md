@@ -911,5 +911,5 @@ Remember to periodically review and update the Additional Resources section of y
 
 ## Contributors
 
-1. @manoj-mass / @hello-mano
+1. [@manoj-mass]([https://](https://github.com/manoj-mass)) / [@hello-mano]([https://](https://github.com/hello-mano))
 2. Would you like to contribute to this document ?
